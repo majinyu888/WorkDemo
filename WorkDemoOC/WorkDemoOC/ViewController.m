@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "JYView.h"// 绘图专用View
+
 @interface ViewController ()
 
 @end
@@ -17,8 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    [self testProgressView];
+    
+//    [self testProgressView];
+    
+    [self testCoreGraphics];
 }
 
 
@@ -50,6 +54,17 @@
     });
     
 }
+
+/**
+ 测试绘制图形
+ */
+- (void)testCoreGraphics
+{
+    JYView *view =  [[JYView alloc] initWithFrame:self.view.bounds];
+    view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:view];
+}
+
 
 
 @end
