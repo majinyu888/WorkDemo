@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "JYView.h"// 绘图专用View
+#import "JYView2.h"// 绘图专用View2
 
 @interface ViewController ()
 
@@ -60,7 +61,7 @@
  */
 - (void)testCoreGraphics
 {
-    JYView *view =  [[JYView alloc] initWithFrame:self.view.bounds];
+    JYView2 *view =  [[JYView2 alloc] initWithFrame:self.view.bounds];
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
 }

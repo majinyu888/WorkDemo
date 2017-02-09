@@ -15,6 +15,7 @@
 		27171BAD1E2334D900C9FF9B /* WorkDemoOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27171BAB1E2334D900C9FF9B /* WorkDemoOC.xcdatamodeld */; };
 		27171BAF1E2334D900C9FF9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27171BAE1E2334D900C9FF9B /* Assets.xcassets */; };
 		27171BB21E2334D900C9FF9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27171BB01E2334D900C9FF9B /* LaunchScreen.storyboard */; };
+		277EC5D91E4C54A70032B4C8 /* JYView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 277EC5D81E4C54A70032B4C8 /* JYView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		27171BAE1E2334D900C9FF9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27171BB11E2334D900C9FF9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27171BB31E2334D900C9FF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277EC5D71E4C54A70032B4C8 /* JYView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYView2.h; sourceTree = "<group>"; };
+		277EC5D81E4C54A70032B4C8 /* JYView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				27171B9F1E2334D900C9FF9B /* Supporting Files */,
 				2702EE251E4AE73300209F35 /* JYView.h */,
 				2702EE261E4AE73300209F35 /* JYView.m */,
+				277EC5D71E4C54A70032B4C8 /* JYView2.h */,
+				277EC5D81E4C54A70032B4C8 /* JYView2.m */,
 			);
 			path = WorkDemoOC;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			files = (
 				27171BA71E2334D900C9FF9B /* ViewController.m in Sources */,
 				27171BAD1E2334D900C9FF9B /* WorkDemoOC.xcdatamodeld in Sources */,
+				277EC5D91E4C54A70032B4C8 /* JYView2.m in Sources */,
 				27171BA41E2334D900C9FF9B /* AppDelegate.m in Sources */,
 				27171BA11E2334D900C9FF9B /* main.m in Sources */,
 				2702EE271E4AE73300209F35 /* JYView.m in Sources */,
